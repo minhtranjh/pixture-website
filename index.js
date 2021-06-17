@@ -17,7 +17,6 @@ menuBtn.addEventListener("click", (e) => {
 
 sliderArr.forEach((slider) => {
   slider.scrollLeft = (pictureSlide[0].clientWidth + 34) * pictureSlide.length;
-
   slider.addEventListener("mousedown", sliderMouseDown);
   let startX = 0;
   let scrollLeft;
